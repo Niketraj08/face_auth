@@ -248,12 +248,6 @@ npm run preview
 - MediaPipe resources cached automatically
 - TensorFlow.js models served from CDN
 
-## 🏛️ UIDAI Integration
-
-### API Integration Points
-- Authentication result callbacks
-- Session management
-- Audit logging (client-side only)
 
 ### Compliance Checklist
 - ✅ Browser-based processing
