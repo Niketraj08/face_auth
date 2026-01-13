@@ -167,46 +167,7 @@ The system implements a comprehensive 4-step active liveness verification proces
 - **Local Processing**: All computation happens client-side
 - **HTTPS Required**: Secure camera access
 
-## 📊 API Reference
 
-### useFaceDetection Hook
-```javascript
-const {
-  faceDetected,
-  faceLandmarks,
-  isInitialized,
-  error,
-  startDetection,
-  stopDetection
-} = useFaceDetection();
-```
-
-### useLivenessDetection Hook
-```javascript
-const {
-  isLive,
-  confidence,
-  isModelLoaded,
-  error,
-  detectLiveness,
-  extractFaceFromVideo
-} = useLivenessDetection();
-```
-
-### useLivenessChecks Hook
-```javascript
-const {
-  blinkDetected,
-  headTurnDetected,
-  smileDetected,
-  currentAction,
-  actionProgress,
-  checkLivenessAction,
-  resetChecks,
-  getActionInstruction,
-  isComplete
-} = useLivenessChecks();
-```
 
 ## 🐛 Troubleshooting
 
